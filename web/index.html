@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Before and after images demo</title>
+    
+    <script async type="application/dart" src="main.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Before and after images demo</h1>
+    <p>Move the slider bar to see before and after comparison.</p>
+    <section>
+      <div id="photo-frame" class="unselectable">
+        <div id="image-before" class="image">
+          <p>A picture of Shanghai taken 20 years ago with a vintage camera.</p>
+        </div>
+        <div id="image-after" class="image">
+          <p>A picture of Shanghai taken 20 years ago.</p>
+        </div>
+        <slider id="slider">
+          <div id="cta" href="javascript:void(0);">Learn more</div>
+        </slider>
+      </div>
+    </section>
+    <button id="replay">Reply demo animation</button>
+  </body>
+</html>
