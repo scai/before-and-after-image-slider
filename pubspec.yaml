@@ -1,4 +1,0 @@
-name: BeforeAndAfterImageSlider
-description: A Dart widget that shows two overlapping images and a slider to show/hide them.
-dependencies:
-  browser: any
